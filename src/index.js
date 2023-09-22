@@ -22,7 +22,7 @@ useEffect(() => {
           movies.map((movie) => {
             return (
               <li key={movie.id}>
-                {movie.title}  Stars: {movie.stars}
+                {movie.title}  {movie.stars} Stars
               </li>
             )
           })
